@@ -6,6 +6,18 @@ Description: Write a program that takes a temperature input from the user and pr
 
 # This program will check the temperature and give a weather update
 
-temperature = float(input("Enter the temperature in °C: "))
+temperature = float(input("\n\nEnter the temperature in °C: "))
 
 # Complete the if-elif-else logic here
+
+if temperature >= 30:
+    print("Hot.")
+
+elif temperature == 25:
+    print("Perfect weather!")
+
+elif temperature <= 10:
+    print("Cold.")
+
+else:
+    print("Moderate.")
