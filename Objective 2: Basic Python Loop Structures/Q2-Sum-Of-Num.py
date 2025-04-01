@@ -11,7 +11,7 @@ numbers = [10, 20, 30, 40, 50]  # List of numbers
 total_sum = 0
 
 # Use a for loop to iterate through the numbers
-for x in numbers:
+for numbers in range(1, 16):
+    total_sum += 10
     
-
 print(total_sum)
